@@ -1,0 +1,18 @@
+# Python / tools
+.venv/
+.venv-1/
+__pycache__/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# PLAID raw data and downloads (too big; download from the PLAID site)
+submetered_new/
+aggregated/
+*.zip
+metadata_*.json
+collecting_data.m
+collecting_data.vi
+
+# Trained model (rebuild with 04.Modeling.ipynb, or attach to a GitHub Release)
+*.joblib
